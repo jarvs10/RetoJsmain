@@ -4,6 +4,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layouts from './components/Layouts'
 import Index, {loader as movieLoader} from './pages/Index'
+import InfoId, {loader as movieDescription} from './pages/InfoId'
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,12 @@ const router = createBrowserRouter([
         index: true,
         element: <Index />,
         loader: movieLoader
-      }
+      },
+      {
+        path: '/movies/:movieId/editar',
+        element: <InfoId />,
+        loader: movieDescription
+      },
     ]
   },
 ]
