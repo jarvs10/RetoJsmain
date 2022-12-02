@@ -1,0 +1,60 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "nombre": "Batman the Dark rises",
+      "year": 2012,
+      "img": "https://play-lh.googleusercontent.com/i8F_nMjhXao8_bTeHofrUDZk-i00FxuQMeDrATexcu5WPcvGM7OoUwdA3ooSLhi4YzE-RB9_fBsvGXe1qLQ",
+      "genre": "actionhero",
+      "description": "Ocho años después de la muerte del fiscal de distrito Harvey Dent y de los horribles y sangrientos eventos en Gotham City, la «Ley Dent» le garantiza poderes al Departamento de Policía de Gotham City, que casi ha erradicado el crimen organizado de la ciudad. Mientras tanto, en Extremo Oriente, tres ladrones son interrogados en un avión por agentes de la CIA para saber el paradero del peligroso terrorista Bane; sin embargo y para sorpresa de los agentes, entre los prisioneros se encuentra el propio Bane, quien les revela que su plan consistía en que lo atraparan para poder capturar al doctor Leonid Pavel, un renombrado físico nuclear, quien también estaba en el avión. Después de eso, el avión donde viajaban los agentes es derribado y éstos son asesinados por los secuaces de Bane, no sin antes llevarse con vida al doctor Pavel y hacer que todo parezca un accidente de avión."
+    },
+    {
+      "id": 2,
+      "nombre": "Titanic",
+      "year": 1994,
+      "img": "https://i.blogs.es/4a9cb1/titanic/840_560.jpeg",
+      "genre": "disaster film",
+      "description": "En 1996, el buscador de tesoros Brock Lovett (interpretado por Bill Paxton) y su equipo de exploración visitan el pecio del RMS Titanic, con el propósito de explorar los restos y encontrar una gargantilla con un valioso diamante conocido como «el Corazón del Mar». Piensan que tal objeto se encuentra en el que fue el camarote de Caledon «Cal» Hockley, ya que los registros históricos hablan de que el diamante perteneció a dicho personaje. Al enviar un par de batiscafos Mir a investigar el pecio del transatlántico, logran hallar el camarote y en su interior descubren una caja fuerte. Una vez que la suben a la cubierta del  Akadémik Mstislav Kéldysh, Lovett y su equipo se disponen a abrirla con la esperanza de que el Corazón del Mar se halle ahí, pero lo único que se encuentran son papeles mojados y una carpeta que contiene un dibujo al carboncillo de una joven desnuda que tan solo luce una gargantilla"
+    },
+    {
+      "id": 3,
+      "nombre": "The Shawshan Redemption",
+      "year": 1994,
+      "img": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
+      "genre": "drama",
+      "description": "En 1947, Andy Dufresne, vicepresidente de un importante banco de Portland (Maine), es juzgado por el homicidio de su esposa y de un hombre con quien ella tenía una aventura. Aunque insiste en su inocencia, las pruebas son motivo suficiente para que el juez lo condene a cumplir dos cadenas perpetuas en la prisión estatal de Shawshank. Al ingresar se percata de lo duro que es el ambiente, los guardias no ahorran esfuerzos en disciplinar a los reclusos con los métodos más crueles, especialmente el jefe, Byron Hadley. Este régimen del terror cuenta con la aprobación del alcaide de la prisión, Samuel Norton."
+    },
+    {
+      "id": 4,
+      "nombre": "Vforvendetta",
+      "year": 2005,
+      "img": "https://miro.medium.com/max/1189/1*Etx-JkqJ5fGz9DnwLVlzNA.jpeg",
+      "genre": "actionhero",
+      "description": "La historia comienza el 4 de noviembre de una ucronía en la que Reino Unido es gobernado por un partido dictatorial ultraconservador y fascista llamado Fuego Nórdico, al frente del cual se encuentra el líder Adam Sutler (John Hurt). Evey Hammond (Natalie Portman), una mujer que trabaja para la British Television Network (BTN), la cadena gubernamental de televisión, es atacada por dos miembros de la policía secreta que la acusaban de violar el toque de queda. Sin embargo, acaba siendo salvada por un extraño individuo enmascarado que se hace llamar V (Hugo Weaving) y que la lleva a un tejado para presenciar la destrucción del edificio Old Bailey, organizada por él. A la mañana siguiente, el régimen informa que el incidente fue una demolición planeada con anterioridad, pero V toma la cadena BTN y desde allí envía un mensaje en el que se otorga la autoría del atentado y le pide a la población que le acompañen el 5 de noviembre del siguiente año, fecha en la que promete destruir el Parlamento del Reino Unido."
+    },
+    {
+      "id": 5,
+      "nombre": "The Watchmen",
+      "year": 2009,
+      "img": "https://es.web.img2.acsta.net/medias/nmedia/18/67/61/47/20237069.jpg",
+      "genre": "actionhero",
+      "description": "Los Minutemen son un grupo de hombres y mujeres disfrazados que luchan contra el crimen, grupo formado en 1938 en respuesta a un aumento de las pandillas y delincuentes, también disfrazados, y los Watchmen se forman similarmente décadas más tarde. Su existencia en los EE. UU. ha afectado dramáticamente los acontecimientos del mundo: los superpoderes del Dr. Manhattan (Billy Crudup) ayudan a Estados Unidos a ganar la guerra de Vietnam, dando como resultado que el presidente Richard Nixon (Robert Wisden) fuera repetidamente reelecto en los años 80. La existencia del Dr. Manhattan le da al Occidente una ventaja estratégica sobre la Unión Soviética, que en esa década amenaza con escalar la Guerra Fría a una guerra nuclear. "
+    },
+    {
+      "id": 6,
+      "nombre": "Batman the Dark Knight",
+      "year": 2008,
+      "img": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "genre": "actionhero",
+      "description": "Tres años después de los eventos de la primera película de la trilogía, una banda de ladrones disfrazados con máscaras de payasos llevan a cabo un violento robo en uno de los bancos de la mafia de Gotham City, pero los asaltantes desconocen que entre ellos se encuentra la persona que los contrato, el Joker (Heath Ledger), quien les había ordenado traicionarse y asesinarse unos a otros, con la finalidad de repartir entre menos el botín. Finalmente el Joker asesina al último de sus cómplices y escapa en un autobús escolar camuflado en una caravana de autobuses escolares que pasaban por el área curiosamente, antes de que llegue la policía de Gotham City al lugar. Al caer la noche, un grupo de imitadores de Batman intenta interrumpir una reunión de traficantes entre el El Espantapájaros (Cillian Murphy) y el líder de la mafia, el Checheno, cuando de pronto el verdadero Batman (Christian Bale) aparece y captura a todos los delincuentes como también a Crane, justo cuando este último intentaba escapar de la escena en una furgoneta. Además de ellos, también captura al grupo de imitadores, a los cuales Batman les advierte que no quiere volverlos a ver nuevamente, ya que según este trabaja solo y no necesita ayuda."
+    },
+    {
+      "id": 7,
+      "nombre": "About time",
+      "year": 2013,
+      "img": "https://pics.filmaffinity.com/Una_cuesti_n_de_tiempo-988331421-large.jpg",
+      "genre": "romance",
+      "description": "Tim Lake (Domhnall Gleeson) crece en Cornualles en una casa junto al mar con su padre James (Bill Nighy), su madre Mary (Lindsay Duncan), su tío distraído Desmond (Richard Cordery) y su hermana de espíritu libre Katherine o Kit Kat (Lydia Wilson). A los 21 años, Tim se entera por su padre de que los hombres de su familia tienen la habilidad secreta de viajar en el tiempo a los momentos que han vivido antes. Para viajar en el tiempo deben estar en un espacio oscuro, apretar los puños y visualizar el recuerdo al que desean viajar. James desalienta a su hijo de usar su regalo para adquirir dinero o fama, y Tim decide que lo usará para mejorar su vida amorosa."
+    }
+  ]
+}

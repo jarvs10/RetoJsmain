@@ -1,42 +1,19 @@
-import { Link } from "react-router-dom";
+import React from 'react'
 
-const Movies = ({Title, Year, Poster, imdbID, setSaveLink}) => {
+const Movies = ({ movie }) => {
+  const { nombre, year, img, genre, description } = movie;
 
-    const handleLink = (id) => {
-        if(id === 'tt0096895'){
-            <Link to='/batman1'>Leer mas</Link>
-        }
-        console.log(id);
-        //setSaveLink(imdbID);
-
-    }
-
-    return (
-        <>
-            <div className='flex justify-center items-center'>
-                
-                <ul className='mt-4 p-2 mb-10 text-center'>
-                    <li className='text-2xl font-black'>{Title}</li>
-                    <li className='text-1xl font-bold mb-2'>{Year}</li>
-                    <li>
-                        <img
-                            className='mx-auto'
-                            width='400'
-                            src={Poster}
-                            alt='img batman'
-                        />
-                    </li>
-                    <input 
-                        className='mt-2 font-bold uppercase py-2 px-5 bg-indigo-600 hover:bg-indigo-800 text-white cursor-pointer rounded-md'
-                        type="button"
-                        value= 'Leer mas' 
-                        onClick={() => handleLink(imdbID)}
-                    />
-                </ul>
-            </div>
-        </>
-        
-    )
+  return (
+    <div className='mt-10'>
+      <ul className='text-center flex flex-col items-center mb-20'>
+        <li className='text-2xl font-bold'>{nombre}</li>
+        <li>{year}</li>
+        <li> <img src={img} alt="imagen" width='600' /></li>
+        <li className='font-bold mt-2 mb-2'>Genero: <span className='font-normal'>{genre}</span></li>
+        <li>{description}</li>
+      </ul>
+    </div>
+  )
 }
 
 export default Movies

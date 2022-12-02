@@ -1,24 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Batman1 from './pages/Batman1'
-import Header from './components/Header'
-import Batman2 from './pages/Batman2'
+import Layouts from './components/Layouts'
+import Index, {loader as movieLoader} from './pages/Index'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Layouts/>,
     children: [
       {
-        path: '/batman1',
-        element: <Batman1 />
-      },
-      {
-        path: '/batman2',
-        element: <Batman2/>
+        index: true,
+        element: <Index />,
+        loader: movieLoader
       }
     ]
   },
